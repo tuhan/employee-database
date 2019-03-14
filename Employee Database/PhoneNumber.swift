@@ -8,8 +8,13 @@
 
 import Foundation
 
+enum PhoneType {
+    case LandLine
+    case Mobile
+    case iPhone
+}
+
 struct PhoneNumber {
-    var mobile: Int
-    var land: Int
-    var iPhone: Int
+    var type: PhoneType
+    var number: Int
 }

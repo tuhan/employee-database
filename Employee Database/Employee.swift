@@ -34,6 +34,16 @@ class Employee {
         self.emailAddress = []
     }
     
+    init (name: Name, phoneNumbers: [PhoneNumber]) {
+        self.name = name
+        self.phoneNumbers = phoneNumbers
+        self.address = nil
+        self.profilePicture = ""
+        self.birthday = nil
+        self.gender = .Unspecified
+        self.emailAddress = []
+    }
+    
     init (name: Name, phoneNumbers: [PhoneNumber], address: Address, profilePicture: String, birthday: Birthday, gender: Gender, emailAdress: [String]) {
         self.name = name
         self.phoneNumbers = phoneNumbers

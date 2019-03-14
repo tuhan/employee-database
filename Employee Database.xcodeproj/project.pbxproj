@@ -17,6 +17,7 @@
 		E79CC557223A8AFC003C6313 /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79CC552223A8AFC003C6313 /* Birthday.swift */; };
 		E79CC558223A8AFC003C6313 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79CC553223A8AFC003C6313 /* Address.swift */; };
 		E79CC559223A8AFC003C6313 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79CC554223A8AFC003C6313 /* Employee.swift */; };
+		E79CC55F223A8DB4003C6313 /* EmployeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79CC55E223A8DB4003C6313 /* EmployeeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E79CC552223A8AFC003C6313 /* Birthday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
 		E79CC553223A8AFC003C6313 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		E79CC554223A8AFC003C6313 /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		E79CC55E223A8DB4003C6313 /* EmployeeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				E79CC554223A8AFC003C6313 /* Employee.swift */,
 				E79CC550223A8AFC003C6313 /* Name.swift */,
 				E79CC551223A8AFC003C6313 /* PhoneNumber.swift */,
+				E79CC55E223A8DB4003C6313 /* EmployeeTableViewCell.swift */,
 			);
 			path = "Employee Database";
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E79CC558223A8AFC003C6313 /* Address.swift in Sources */,
+				E79CC55F223A8DB4003C6313 /* EmployeeTableViewCell.swift in Sources */,
 				E79CC557223A8AFC003C6313 /* Birthday.swift in Sources */,
 				E79CC555223A8AFC003C6313 /* Name.swift in Sources */,
 				E79CC559223A8AFC003C6313 /* Employee.swift in Sources */,

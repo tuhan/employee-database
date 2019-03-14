@@ -8,11 +8,32 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDataSource {
 
+    @IBOutlet weak var tableView: UITableView!
+    var employees: [Employee] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        var stark = Employee(name: Name(firstName: "Tony", lastName: "Stark"), phoneNumbers: [PhoneNumber(type: .iPhone, number: 011)])
+        var pepper = Employee(name: Name(firstName: "Pepper", lastName: "Stark"), phoneNumbers: [PhoneNumber(type: .iPhone, number: 011)])
+        employees.append(stark)
+        employees.append(pepper)
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.employees.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "EmployeeTableViewCell", for: indexPath) as!EmployeeTableViewCell
+        
+        cell.nameLabel.text = employees[indexPath.row].name.firstName
+        //cell.phoneLabel.text = "\(emloyees[indexPath.row].phoneNumbers[0].number)"
+        return cell
+        
     }
 
 
