@@ -10,6 +10,14 @@ import Foundation
 
 struct Birthday {
     let date: Int
-    let month: String
+    let month: Month
     var year: Int
+}
+
+enum Month {
+    case January
+    case February
+    case March
+    case April
+    case May
 }
