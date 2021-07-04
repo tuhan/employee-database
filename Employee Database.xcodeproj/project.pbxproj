@@ -18,6 +18,9 @@
 		E79CC558223A8AFC003C6313 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79CC553223A8AFC003C6313 /* Address.swift */; };
 		E79CC559223A8AFC003C6313 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79CC554223A8AFC003C6313 /* Employee.swift */; };
 		E79CC55F223A8DB4003C6313 /* EmployeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79CC55E223A8DB4003C6313 /* EmployeeTableViewCell.swift */; };
+		E7B652ED223A9C3600E35CD1 /* NibTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B652EB223A9C3600E35CD1 /* NibTableViewCell.swift */; };
+		E7B652EE223A9C3600E35CD1 /* NibTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7B652EC223A9C3600E35CD1 /* NibTableViewCell.xib */; };
+		E7B652F0223AA2FE00E35CD1 /* NewUITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B652EF223AA2FE00E35CD1 /* NewUITableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		E79CC553223A8AFC003C6313 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		E79CC554223A8AFC003C6313 /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		E79CC55E223A8DB4003C6313 /* EmployeeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTableViewCell.swift; sourceTree = "<group>"; };
+		E7B652EB223A9C3600E35CD1 /* NibTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibTableViewCell.swift; sourceTree = "<group>"; };
+		E7B652EC223A9C3600E35CD1 /* NibTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NibTableViewCell.xib; sourceTree = "<group>"; };
+		E7B652EF223AA2FE00E35CD1 /* NewUITableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUITableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,9 @@
 				E79CC550223A8AFC003C6313 /* Name.swift */,
 				E79CC551223A8AFC003C6313 /* PhoneNumber.swift */,
 				E79CC55E223A8DB4003C6313 /* EmployeeTableViewCell.swift */,
+				E7B652EB223A9C3600E35CD1 /* NibTableViewCell.swift */,
+				E7B652EC223A9C3600E35CD1 /* NibTableViewCell.xib */,
+				E7B652EF223AA2FE00E35CD1 /* NewUITableViewController.swift */,
 			);
 			path = "Employee Database";
 			sourceTree = "<group>";
@@ -141,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E79CC549223A8ADE003C6313 /* LaunchScreen.storyboard in Resources */,
+				E7B652EE223A9C3600E35CD1 /* NibTableViewCell.xib in Resources */,
 				E79CC546223A8ADE003C6313 /* Assets.xcassets in Resources */,
 				E79CC544223A8ADD003C6313 /* Main.storyboard in Resources */,
 			);
@@ -154,8 +164,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E79CC558223A8AFC003C6313 /* Address.swift in Sources */,
+				E7B652ED223A9C3600E35CD1 /* NibTableViewCell.swift in Sources */,
 				E79CC55F223A8DB4003C6313 /* EmployeeTableViewCell.swift in Sources */,
 				E79CC557223A8AFC003C6313 /* Birthday.swift in Sources */,
+				E7B652F0223AA2FE00E35CD1 /* NewUITableViewController.swift in Sources */,
 				E79CC555223A8AFC003C6313 /* Name.swift in Sources */,
 				E79CC559223A8AFC003C6313 /* Employee.swift in Sources */,
 				E79CC541223A8ADD003C6313 /* ViewController.swift in Sources */,

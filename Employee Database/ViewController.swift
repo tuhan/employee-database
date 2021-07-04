@@ -20,6 +20,9 @@ class ViewController: UIViewController, UITableViewDataSource {
         var pepper = Employee(name: Name(firstName: "Pepper", lastName: "Stark"), phoneNumbers: [PhoneNumber(type: .iPhone, number: 011)])
         employees.append(stark)
         employees.append(pepper)
+        
+        self.tableView.register(UINib(nibName: "NibTableViewCell", bundle: nil), forCellReuseIdentifier: "NibTableViewCell")
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -28,13 +31,21 @@ class ViewController: UIViewController, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "EmployeeTableViewCell", for: indexPath) as!EmployeeTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "NibTableViewCell", for: indexPath) as!NibTableViewCell
         
         cell.nameLabel.text = employees[indexPath.row].name.firstName
         //cell.phoneLabel.text = "\(emloyees[indexPath.row].phoneNumbers[0].number)"
         return cell
         
     }
+    
+    /*
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        
+    }
+    */
+    
+    
 
 
 }
